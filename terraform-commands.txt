@@ -1,0 +1,12 @@
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+terraform       (shows all commands)
+terraform state list
+terraform state show <name of resource>
+terraform refresh
+terraform destroy -target <resource name>
+terraform apply -target <resource name>
+terraform apply -var "<variable name>=<value>"
+terraform apply -var-file <filename>
